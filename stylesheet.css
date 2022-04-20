@@ -14,7 +14,7 @@ body {
   
 }
 .footer {
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(196, 228, 150);
   box-shadow: 0px 5px #a7e3e6;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -27,6 +27,15 @@ body {
   height: 25px;
   padding-top: 15px;
   padding-left: 20px;
+}
+.profileright {
+  display: flex;
+  grid-column-end: 3;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 #searchbar {
@@ -105,7 +114,9 @@ li {
   padding-right: 30px;
 }
 li:hover{
-  color:#f0a12c
+  color:#f0a12c;
+  text-decoration: underline;
+  
 }
 .listone {
   display: grid;
