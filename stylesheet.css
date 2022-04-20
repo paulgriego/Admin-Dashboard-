@@ -86,7 +86,7 @@ button:hover {
 .sidebar {
   background-color: #49c0ef;
   min-height: 100%;
-  padding-bottom: 10%;
+  padding-bottom: 100%;
   grid-row-start: 1;
   grid-row-end: -1;
   
